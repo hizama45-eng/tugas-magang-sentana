@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pendaftaran Seminar Online</title>
+</head>
+<body>
+	<h1>Pendaftaran Seminar Online</h1>
+	<h2>Langkah 2 dari 3</h2>
+	
+	<form action="halaman3.html">
+	
+		<fieldset> <legend>Informasi Seminar</legend><br>
+		<label for="seminar">Pilih Seminar</label><br>
+		<select id="seminar" name="seminar">
+			<option value="pilih">- - - Pilih Seminar - - -</option>
+			<option value="html dasar">HTML Dasar</option>
+			<option value="CSS Dasar">CSS Dasar</option>
+			<option value="JavaScript Fundamental">JavaScript Fundamental</option>
+			<option value="PHP Dasar">PHP Dasar</option>
+			<option value="Laravel">Laravel</option>
+		</select><br><br>
+		
+		<label for="tanggallahir">tanggallahhir</label><br>
+		<input type="date" id="tanggallahir< name=" placeholder="dd/mm/yyy"><br><br>
+		
+		<label for="Sesi">Sesi</label><br>
+		<input type="radio" id="radio" name="pagi value="Pagi">
+		<label for="Pagi"> Pagi</label>
+		<input type="radio" id="radio" name="Siang value="Siang">
+		<label for="Siang"> Siang</label>
+		<input type="radio" id="radio name="Malam value="Malam">
+		<label for="Malam"> Malam</label><br><br>
+		
+		<label for="Metode Kehadiran">Metode Kehadiran</label><br>
+		<input type="radio" id="radio" name="Online value="Onine">
+		<label for="Online"> Online</label>
+		<input type="radio" id="radio name=Offline value="Offline">
+		<label for="Offline"> Offline</label><br><br>
+		
+		<label for="file"> Upload Bukti Pembayaran</label><br>
+		<input type="file" id="bukti_Pembayaran" accept =".jpg,jpeg,.png" required><br><br>
+	</fieldset>
+	</form><br><br>
+	
+		<form action="halaman1.html"> <button type="submit">sebelumnya </button></form>
+		<form action="halaman3.html"><button type="submit">Selanjutnya >></button></form>
+  </body>
+ </html>
+		

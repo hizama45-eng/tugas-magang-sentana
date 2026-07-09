@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<title>Halaman 3</title>
+	</head>
+	<body>
+		<h2>Pendaftaran Seminar Onlane</h2>
+		<h3>Langkah 3 dari 3</h3>
+		
+		<form action="halaman3.html" method="post">
+			<fieldset> 
+			<legend>Preferensi Peserta</legend>
+				
+			<label for="Topik">Topik yang diminati:</label><br>
+			<input type="checkbox" id="HTML" name="topik" value="HTML"					
+			<label for="HTML">HTML</label>
+			<input type="checkbox" id="CSS" name="topik" val="CSS">
+			<label for="CSS">CSS</label> <input type="checkbox" id="JavaScript" name="topik" value="JavaScript">
+			<label for="JavaScript">JavaScript</label>
+			<input type="checkbox" id="PHP" name="topik" value="PHP">
+			<label for="PHP">PHP</label>
+			<input type="checkbox" id="Laravel" name="topik" value="Laravel">
+			<label for="Laravel">Laravel</label><br><br>
+				
+				
+			<label for="sumber_informarsi">Sumber Informarsi</label><br>
+			<select id="sumber_informarsi" name="sumber_informarsi"required>
+				<option value="" selected disabled>--Pilih--</option>
+				<option value="instagram">Instagram</option>
+				<option value="facbook">Facbook</option>
+				<option value="website">Website</option>
+				<option value="teman">Teman</option>
+				<option value="whatsapp">WhatsApp</option>
+				</select><br>
+					<label for="pesan/catatan">Pesan/Catatan:</label><br>
+					<textarea id="pesan/catatan" name="pesan/catatan" rows="4" cols="50" placeholder="Tulisan Pesan Anda.."></textarea><br><br>
+			</fieldset><br>
+			<fieldset>
+				<legend>Konfirmasi</legend>
+					<input type="checkbox" id="konfirmasi" name="konfirmasi" required>
+					<label for="konfirmasi">Saya menyutujui seluruh syarat dan ketentuan.</label><br><br>
+			</fieldset><br>
+			
+			<a href='halaman2.html'"> <button type="button"> << Sebelumnya </button></a>
+			<input type="reset" value="reset">
+			<input type="submit" value="submit">
+		</form>
+	</body>
+</html>
